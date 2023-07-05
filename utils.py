@@ -111,7 +111,7 @@ class Juegos_infantiles():
                                                               'b': opcion_b,
                                                               'c': opcion_c},
                                                   'respuesta': respuesta.lower()}
-                    print("¡¡¡ Se agrego correctamente la pregunta !!!")
+                    print("¡¡¡Se agrego correctamente la pregunta!!!")
                     break
                 except Exception as e:
                     print(f"Ocurrio un error {e}")
