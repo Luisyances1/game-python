@@ -52,9 +52,9 @@ class Juegos_infantiles():
             else:
                 break
         print(f"""
-        Juego terminado:
-        Jugador: {self.jugador}
-        Puntos: {puntos}
+            Juego terminado:
+            Jugador: {self.jugador}
+            Puntos: {puntos}
         """)
         ranking = self.leer_textos_json('ranking')
         ranking[f'Juego-{len(ranking.keys())+1}'] = {'nombre': self.jugador,
