@@ -46,7 +46,7 @@ class Juegos_infantiles():
                     print(f"Muy bien, su respuesta fue correcta, ¡ANIMO! se le suman 5 puntos a su acumulado")
                     puntos += 5
                 else:
-                    print("(U_U) Respuesta incorrecta, Pero animo")
+                    print("(U_U) que mal Respuesta incorrecta, Pero animo")
                     puntos += 2
                 conteo += 1
             else:
